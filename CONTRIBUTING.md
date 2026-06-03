@@ -24,3 +24,4 @@ cd NetworkInterfaceMenu
 - Include validation steps and results.
 - Mention macOS version tested.
 - Keep UI/UX changes visible in screenshots when relevant.
+- Wait for CI to pass before requesting final review.

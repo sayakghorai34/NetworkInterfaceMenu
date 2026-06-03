@@ -90,6 +90,13 @@ Add it manually in macOS:
 2. Go to **General > Login Items**.
 3. Under **Open at Login**, click `+` and select `/Applications/NetworkInterfaceMenu.app`.
 
+## Project Governance
+
+- Direct pushes to `main` are blocked by branch protection.
+- Changes should come through pull requests.
+- CI must pass before merge.
+- Code owner approval is required.
+
 ## Security Model
 
 - Privileged changes are executed through `sudo`.

@@ -56,4 +56,7 @@ if [[ -f "$ICON_PATH" ]]; then
 fi
 
 killall "$APP_NAME" 2>/dev/null || true
-open "$APP_DIR"
+
+if [[ "${NO_OPEN:-0}" != "1" ]]; then
+  open "$APP_DIR"
+fi
