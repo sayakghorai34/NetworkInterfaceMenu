@@ -1,0 +1,38 @@
+# Build artifacts
+build/
+.build/
+dist/
+*.o
+*.a
+*.so
+*.dylib
+/NetworkInterfaceMenu
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+*.xcbkptlist
+
+# App bundles
+*.app/
+DerivedData/
+
+# Swift Package Manager
+.swiftpm/
+Package.resolved
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+*.swp
+*.swo
+*~
+
+# Dependencies
+Pods/
+Carthage/Build/
