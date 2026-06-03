@@ -95,7 +95,7 @@ Add it manually in macOS:
 - Direct pushes to `main` are blocked by branch protection.
 - Changes should come through pull requests.
 - CI must pass before merge.
-- Code owner approval is required.
+- Merges are manual and controlled by repository owner.
 
 ## Security Model
 
